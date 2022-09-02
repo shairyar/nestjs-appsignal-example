@@ -13,4 +13,6 @@ export const appsignal = new Appsignal({
   active,
   name,
   pushApiKey,
+  logLevel: 'trace',
+  logPath: 'logs'
 });
